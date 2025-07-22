@@ -52,7 +52,8 @@ claude --version
 
 ### 2. Clone or Download AgenticMode
 ```bash
-cd G:/SoftDev/AgenticMode
+git clone https://github.com/elkiks85/AgenticMode.git
+cd AgenticMode
 ```
 
 ### 3. Install Dashboard Dependencies (Optional)
@@ -60,6 +61,37 @@ cd G:/SoftDev/AgenticMode
 cd Dashboard/backend && npm install
 cd ../frontend && npm install
 ```
+
+### Directory Structure
+
+```
+AgenticMode/
+├── AGENTS/              # Agent-specific directories
+├── COMMUNICATION/       # Inter-agent messaging
+├── Dashboard/           # Web-based monitoring
+├── PROJECTS/            # Active projects (each with own git repo)
+├── Scripts/             # Agent launch scripts
+├── ORCHESTRATOR/        # Central coordination
+└── USER_GUIDE.md       # This guide
+```
+
+### Important: Git Repository Structure
+
+**AgenticMode uses a two-tier git structure:**
+
+1. **Framework Repository** (https://github.com/elkiks85/AgenticMode)
+   - Contains the multi-agent framework
+   - Tracks agents, dashboard, and tools
+   - Does NOT track individual project contents
+
+2. **Project Repositories** (one per project)
+   - Each project in PROJECTS/ has its own git repository
+   - Projects are independently versioned
+   - Can be pushed to separate GitHub repositories
+
+**When using in Cursor:**
+- Open `AgenticMode/` to work on the framework
+- Open `AgenticMode/PROJECTS/PROJECT_XXX/` to work on a specific project
 
 ---
 

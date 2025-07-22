@@ -48,8 +48,11 @@ COMMUNICATION/ACKNOWLEDGMENTS/
 
 # Work in progress
 WORK/
-PROJECTS/*/ARTIFACTS/
-PROJECTS/*/WORK/
+
+# Individual projects (each has own git repo)
+PROJECTS/*/
+!PROJECTS/.gitignore
+!PROJECTS/README.md
 
 # System files
 *.bak

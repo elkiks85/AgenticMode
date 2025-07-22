@@ -1,62 +1,28 @@
 # Projects Directory
 
-This directory contains all projects managed by the multi-agent system.
+This directory contains individual projects managed by the AgenticMode system.
 
-## Project Structure
+## Important: Git Repository Structure
 
-Each project has its own directory with:
+Each project in this directory should have its own Git repository. The main AgenticMode repository does NOT track the contents of individual projects.
 
+### Structure:
 ```
-PROJECT-[ID]/
-├── README.md           # Project overview
-├── REQUIREMENTS.md     # Detailed requirements
-├── ARCHITECTURE.md     # Technical architecture
-├── TIMELINE.md        # Project timeline
-├── TEAM.md           # Assigned agents
-├── STATUS.md         # Current status
-└── DELIVERABLES/     # Project outputs
+PROJECTS/
+├── .gitignore (this ensures projects aren't tracked by AgenticMode)
+├── README.md (this file)
+├── PROJECT_001/ (has its own .git/)
+├── PROJECT_002/ (has its own .git/)
+└── ... (each with their own git repo)
 ```
 
-## Project Lifecycle
+### For Agents:
+When working on a project, agents should:
+1. Initialize git within the project directory
+2. Commit changes to the project's own repository
+3. Never commit project files to the main AgenticMode repository
 
-1. **PLANNING** - Requirements gathering and design
-2. **ACTIVE** - Development in progress
-3. **TESTING** - Quality assurance phase
-4. **REVIEW** - Final review and approval
-5. **COMPLETED** - Project delivered
-6. **CANCELLED** - Project terminated
-
-## Project Format
-
-```markdown
-# PROJECT-[ID]: [Name]
-
-**Type**: [Web App|API|Library|Service|etc]
-**Client**: [CLIENT_AGENT or External]
-**Status**: [PLANNING|ACTIVE|TESTING|REVIEW|COMPLETED|CANCELLED]
-**Start Date**: [ISO_DATE]
-**Target Date**: [ISO_DATE]
-**Actual End**: [ISO_DATE or TBD]
-
-## Description
-[Project description]
-
-## Objectives
-1. [Objective 1]
-2. [Objective 2]
-
-## Team
-- **Lead**: [AGENT_NAME]
-- **Members**: [List of agents]
-
-## Progress
-- Overall: [0-100]%
-- Current Phase: [Phase name]
-- Blockers: [Any blockers]
-
-## Metrics
-- Tasks Total: [Number]
-- Tasks Completed: [Number]
-- Quality Score: [0-100]
-- On Schedule: [YES|NO|AT_RISK]
-```
+### For Users:
+1. Each project can be pushed to its own GitHub repository
+2. The AgenticMode framework remains separate from project code
+3. You can share the framework without sharing your projects

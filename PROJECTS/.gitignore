@@ -1,0 +1,9 @@
+# This file ensures git doesn't track project contents
+# Each project should have its own git repository
+
+# Ignore all subdirectories (projects)
+*/
+
+# But keep this file
+!.gitignore
+!README.md
