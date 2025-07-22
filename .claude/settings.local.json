@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(npm install:*)",
+      "Bash(powershell:*)",
+      "Bash(rm:*)",
+      "Bash(for dir in */)",
+      "Bash(do if [ ! -f \"$dir/INSTRUCTIONS.md\" ])",
+      "Bash(then echo \"$dir is missing INSTRUCTIONS.md\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(Dashboard/start-dashboard.bat)",
+      "Bash(npm run dev:*)",
+      "Bash(start npm run dev)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

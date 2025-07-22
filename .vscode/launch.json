@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CLIENT Agent",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are CLIENT",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "AGENT_MANAGER",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are AGENT_MANAGER",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "ORCHESTRATOR",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are ORCHESTRATOR",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "ARCHITECT",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are ARCHITECT",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "BACKEND_DEV",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are BACKEND_DEV",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "FRONTEND_DEV",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "claude You are FRONTEND_DEV",
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Core Agents",
+      "configurations": ["AGENT_MANAGER", "CLIENT", "ORCHESTRATOR"]
+    },
+    {
+      "name": "All Agents",
+      "configurations": ["AGENT_MANAGER", "CLIENT", "ORCHESTRATOR", "ARCHITECT", "BACKEND_DEV", "FRONTEND_DEV"]
+    }
+  ]
+}

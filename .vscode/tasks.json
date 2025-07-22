@@ -1,0 +1,344 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // Core Agents
+    {
+      "label": "Start CLIENT Agent",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\client-agent.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "core"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start AGENT_MANAGER",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\agent-manager.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "core"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start ORCHESTRATOR",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\orchestrator.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "core"
+      },
+      "problemMatcher": []
+    },
+    
+    // Development Team
+    {
+      "label": "Start ARCHITECT",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\architect.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "development"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start BACKEND_DEV",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\backend-dev.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "development"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start FRONTEND_DEV",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\frontend-dev.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "development"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start QA_ENGINEER",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\qa-engineer.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "development"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start DOCUMENTOR",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\documentor.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "development"
+      },
+      "problemMatcher": []
+    },
+    
+    // Support Team
+    {
+      "label": "Start SECURITY",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\security.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start DEVOPS",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\devops.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start DEPLOYMENT",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\deployment.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start MONITOR",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\monitor.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start PERFORMANCE",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\performance.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start INTEGRATOR",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\integrator.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start AUDITOR",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\auditor.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start TESTER",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\tester.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start REVIEWER",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Scripts\\reviewer.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "support"
+      },
+      "problemMatcher": []
+    },
+    
+    // Group Tasks
+    {
+      "label": "Start Core Agents (One by One)",
+      "dependsOn": [
+        "Start AGENT_MANAGER",
+        "Start CLIENT Agent",
+        "Start ORCHESTRATOR"
+      ],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "label": "Start Development Team",
+      "dependsOn": [
+        "Start ARCHITECT",
+        "Start BACKEND_DEV",
+        "Start FRONTEND_DEV",
+        "Start QA_ENGINEER",
+        "Start DOCUMENTOR"
+      ],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "label": "Start Support Team",
+      "dependsOn": [
+        "Start SECURITY",
+        "Start DEVOPS",
+        "Start DEPLOYMENT",
+        "Start MONITOR",
+        "Start PERFORMANCE",
+        "Start INTEGRATOR",
+        "Start AUDITOR",
+        "Start TESTER",
+        "Start REVIEWER"
+      ],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    
+    // Utility Tasks
+    {
+      "label": "Start Dashboard",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Dashboard\\start-dashboard.bat",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Kill All Node Processes",
+      "type": "shell",
+      "command": "taskkill /F /IM node.exe",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false,
+        "echo": true,
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
