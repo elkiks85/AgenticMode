@@ -37,7 +37,7 @@ const statusIcons = {
 
 export default function ProjectList() {
   const router = useRouter();
-  const { projects, fetchProjects } = useProjectStore();
+  const { projects = [], fetchProjects } = useProjectStore();
 
   useEffect(() => {
     fetchProjects();
@@ -50,9 +50,12 @@ export default function ProjectList() {
     router.push(`/projects/${projectId}`);
   };
 
+  // Ensure projects is always an array
+  const projectList = Array.isArray(projects) ? projects : [];
+
   return (
     <div className="space-y-4">
-      {projects.length === 0 ? (
+      {projectList.length === 0 ? (
         <Card>
           <CardContent className="flex flex-col items-center justify-center py-12">
             <FolderOpen className="h-12 w-12 text-muted-foreground mb-4" />
@@ -64,7 +67,7 @@ export default function ProjectList() {
           </CardContent>
         </Card>
       ) : (
-        projects.map((project) => (
+        projectList.map((project) => (
           <Card 
             key={project.id} 
             className="hover:shadow-lg transition-all cursor-pointer"
