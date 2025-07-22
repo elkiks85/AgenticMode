@@ -5,7 +5,14 @@
     {
       "label": "Start CLIENT Agent",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\client-agent.bat",
+      "command": "claude",
+      "args": ["You are CLIENT"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -20,7 +27,14 @@
     {
       "label": "Start AGENT_MANAGER",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\agent-manager.bat",
+      "command": "claude",
+      "args": ["You are AGENT_MANAGER"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -35,7 +49,14 @@
     {
       "label": "Start ORCHESTRATOR",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\orchestrator.bat",
+      "command": "claude",
+      "args": ["You are ORCHESTRATOR"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -52,7 +73,14 @@
     {
       "label": "Start ARCHITECT",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\architect.bat",
+      "command": "claude",
+      "args": ["You are ARCHITECT"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -67,7 +95,14 @@
     {
       "label": "Start BACKEND_DEV",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\backend-dev.bat",
+      "command": "claude",
+      "args": ["You are BACKEND_DEV"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -82,7 +117,14 @@
     {
       "label": "Start FRONTEND_DEV",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\frontend-dev.bat",
+      "command": "claude",
+      "args": ["You are FRONTEND_DEV"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -97,7 +139,14 @@
     {
       "label": "Start QA_ENGINEER",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\qa-engineer.bat",
+      "command": "claude",
+      "args": ["You are QA_ENGINEER"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -112,7 +161,14 @@
     {
       "label": "Start DOCUMENTOR",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\documentor.bat",
+      "command": "claude",
+      "args": ["You are DOCUMENTOR"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -129,7 +185,14 @@
     {
       "label": "Start SECURITY",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\security.bat",
+      "command": "claude",
+      "args": ["You are SECURITY"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -144,7 +207,14 @@
     {
       "label": "Start DEVOPS",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\devops.bat",
+      "command": "claude",
+      "args": ["You are DEVOPS"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -159,7 +229,14 @@
     {
       "label": "Start DEPLOYMENT",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\deployment.bat",
+      "command": "claude",
+      "args": ["You are DEPLOYMENT"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -174,7 +251,14 @@
     {
       "label": "Start MONITOR",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\monitor.bat",
+      "command": "claude",
+      "args": ["You are MONITOR"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -189,7 +273,14 @@
     {
       "label": "Start PERFORMANCE",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\performance.bat",
+      "command": "claude",
+      "args": ["You are PERFORMANCE"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -204,7 +295,14 @@
     {
       "label": "Start INTEGRATOR",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\integrator.bat",
+      "command": "claude",
+      "args": ["You are INTEGRATOR"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -219,7 +317,14 @@
     {
       "label": "Start AUDITOR",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\auditor.bat",
+      "command": "claude",
+      "args": ["You are AUDITOR"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -234,7 +339,14 @@
     {
       "label": "Start TESTER",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\tester.bat",
+      "command": "claude",
+      "args": ["You are TESTER"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -249,7 +361,14 @@
     {
       "label": "Start REVIEWER",
       "type": "shell",
-      "command": "${workspaceFolder}\\Scripts\\reviewer.bat",
+      "command": "claude",
+      "args": ["You are REVIEWER"],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -262,82 +381,116 @@
       "problemMatcher": []
     },
     
-    // Group Tasks
+    // Team Tasks
     {
-      "label": "Start Core Agents (One by One)",
-      "dependsOn": [
-        "Start AGENT_MANAGER",
-        "Start CLIENT Agent",
-        "Start ORCHESTRATOR"
-      ],
-      "dependsOrder": "sequence",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "silent"
-      }
-    },
-    {
-      "label": "Start Development Team",
-      "dependsOn": [
-        "Start ARCHITECT",
-        "Start BACKEND_DEV",
-        "Start FRONTEND_DEV",
-        "Start QA_ENGINEER",
-        "Start DOCUMENTOR"
-      ],
-      "dependsOrder": "sequence",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "silent"
-      }
-    },
-    {
-      "label": "Start Support Team",
-      "dependsOn": [
-        "Start SECURITY",
-        "Start DEVOPS",
-        "Start DEPLOYMENT",
-        "Start MONITOR",
-        "Start PERFORMANCE",
-        "Start INTEGRATOR",
-        "Start AUDITOR",
-        "Start TESTER",
-        "Start REVIEWER"
-      ],
-      "dependsOrder": "sequence",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "silent"
-      }
-    },
-    
-    // Utility Tasks
-    {
-      "label": "Start Dashboard",
+      "label": "Start Core Agents",
       "type": "shell",
-      "command": "${workspaceFolder}\\Dashboard\\start-dashboard.bat",
+      "command": "${workspaceFolder}\\start-core-agents.bat",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
         "panel": "new",
-        "focus": false,
+        "focus": true,
         "echo": true,
-        "showReuseMessage": false,
-        "clear": false
+        "showReuseMessage": false
       },
       "problemMatcher": []
     },
     {
-      "label": "Kill All Node Processes",
+      "label": "Start Development Team",
       "type": "shell",
-      "command": "taskkill /F /IM node.exe",
+      "command": "${workspaceFolder}\\start-dev-agents.bat",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "presentation": {
         "reveal": "always",
-        "panel": "dedicated",
-        "focus": false,
+        "panel": "new",
+        "focus": true,
         "echo": true,
-        "showReuseMessage": false,
-        "clear": true
+        "showReuseMessage": false
       },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Support Team",
+      "type": "shell",
+      "command": "${workspaceFolder}\\start-support-agents.bat",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "echo": true,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start All Agents",
+      "type": "shell",
+      "command": "${workspaceFolder}\\start-all-agents.bat",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "echo": true,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    },
+    
+    // Dashboard Task
+    {
+      "label": "Start Dashboard",
+      "type": "shell",
+      "command": "${workspaceFolder}\\Dashboard\\start-dashboard.bat",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "echo": true,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    },
+    
+    // Compound Tasks
+    {
+      "label": "Quick Start (Core + Dashboard)",
+      "dependsOn": ["Start Core Agents", "Start Dashboard"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    },
+    {
+      "label": "Full System",
+      "dependsOn": ["Start All Agents", "Start Dashboard"],
+      "dependsOrder": "parallel",
       "problemMatcher": []
     }
   ]
